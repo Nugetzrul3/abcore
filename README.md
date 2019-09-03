@@ -20,9 +20,9 @@ What is Android Bitcoin Core?
 -----------------------------
 
 Android Bitcoin Core is an Android app that fetches bitcoin core daemon built for Android using the NDK and is meant to make it easier
-to run Bitcoin Core daemon node on always on Android set top box devices and home appliances as well as mobile devices.
+to run Bitcoin Core daemon node on Android set top box devices and home appliances, as well as mobile devices.
 
-The full node software (Core 0.18.1 and Knots 0.18.0 and Elements 0.17.0.1) is meant to be used as a personal node when on the go (either by using a mobile wallet that allows to connect to a remote and specific node or even directly on your mobile device).
+The full node software (Core 0.18.1 and Knots 0.18.0 and Elements 0.17.0.1) is meant to be used as a personal node when on the go (either by using a mobile wallet that allows a connection to a remote and specific node or even directly on your mobile device).
 
 ABCore works on x86, x86_64, armhf and arm64 Android (any version from Lollipop onwards - sdk 21). Mips is not supported.
 
@@ -35,18 +35,18 @@ information or see https://opensource.org/licenses/MIT.
 Privacy
 -------
 
-ABCore doesn't do any kind of phone home, doesn't have In-App Purchase or advertising.
+ABCore does not do any phone calls, doesn't have In-App Purchases or advertising.
 
 During the initial configuration it connects to Github to fetch the required binaries and once it is installed it only communicates with the rest of the Bitcoin network like any normal full node.
 
 Limitations
 -----------
 
-ABCore requires a fair amount of ram (tested with 2GB) and a fair amount of disk space (tested with 256GB for non pruned node) as well as a decent always on connection - 3G or 4G is not advised.
+ABCore requires a fair amount of ram (tested with 2GB) and a fair amount of disk space (tested with 256GB for non pruned node) as well as a decent stable and constant connection to the internet - 3G or 4G is not advised.
 
 We also do not advise to use this as a wallet at this time, we advise to use this as your personal blockchain anchor when on the go with wallets that support to set a personal node.
 
-The contributors of ABCore are not liable for any cost or damage caused by the app including but not limited to data charges/penalties.
+The contributors of ABCore are not liable for any cost or damage caused by the app including, but not limited to, data charges/penalties.
 
 Acknowledgement
 ---------------
@@ -72,4 +72,4 @@ Timothy Redaelli
 twitter.com/drizztbsd
 timothy.redaelli (at) gmail (dot) com
 
-Special thanks to the [Bitcoin Core dev team](https://bitcoincore.org/), the [Arch Linux](https://www.archlinux.org/) teams and to [Alessandro Polverini](https://github.com/Polve) for the [Java RPC client](https://github.com/Polve/JavaBitcoindRpcClient).
+Special thanks to the [Bitcoin Core dev team](https://bitcoincore.org/), the [Arch Linux](https://www.archlinux.org/) teams and [Alessandro Polverini](https://github.com/Polve) for providing the [Java RPC client](https://github.com/Polve/JavaBitcoindRpcClient).
